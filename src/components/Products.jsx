@@ -70,7 +70,7 @@ function Products() {
                     <p class="card-text lead fw-bold">
                       ${product.price}
                     </p>
-                    <NavLink to={`Z/products/${product.id}`} class="btn btn-outline-dark">
+                    <NavLink to={`/products/${product.id}`} class="btn btn-outline-dark">
                       BUY NOW!
                     </NavLink>
                   </div>
